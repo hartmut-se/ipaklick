@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPAKLICK — IPA type-and-click tool</title>
+<meta name="description" content="IPAKLICK is a tool for inserting IPA symbols into electronic documents. Instructions for use.">
+<script>
+function OpenNewWindow(url, winwidth, winheight) {
+  window.open(
+    url,
+    "ipaklick",
+    "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=yes,width=" +
+      winwidth + ",height=" + winheight
+  );
+}
+</script>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0;
+    padding: 1.25rem;
+    background: #ffffbb;
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+  }
+  main { max-width: 52rem; margin: 0 auto; }
+  .former-links { font-size: 0.70rem; line-height: 1.35; }
+  h1 { font-size: 1.7rem; margin: 1.1rem 0 0.5rem; }
+  h1 a { color: #0000bb; text-decoration: none; }
+  h1 a:hover { color: #ff0000; text-decoration: underline; }
+  a { color: #0000bb; }
+  a:hover { color: #ff0000; }
+  hr { border: 0; border-top: 1px solid #888; margin: 1rem 0; }
+  footer { text-align: center; margin-top: 1.5rem; }
+  .author-url { font-size: 0.9rem; margin-top: 0.15rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="former-links">
+    <small>
+      Former links: "http://www.ling.su.se/fon/ipa-tecken.htm",
+      "http://www.ling.su.se/fon/ipa-skrivmaskin.htm",
+      "http://www.ling.su.se/fon/ipabrux.htm"
+      <br>"http://www2.ling.su.se/fon/ipa-tecken.htm",
+      "http://www2.ling.su.se/fon/ipa-skrivmaskin.htm",
+      "http://www2.ling.su.se/fon/ipa-brux.htm"
+      <br>"https://www2.ling.su.se/fon/ipa-tecken.htm",
+      "https://www2.ling.su.se/fon/ipa-skrivmaskin.htm",
+      "https://www2.ling.su.se/fon/ipa-brux.htm"
+      <br>2026: "https://resources.ling.su.se/fon/ipa-tecken.html",
+      "https://resources.ling.su.se/fon/IPA-skrivmaskin.html",
+      "https://resources.ling.su.se/fon/IPAbrux.html"
+    </small>
+  </div>
+
+  <h1><a href="javascript:OpenNewWindow('ipa-text-input.html','640','445')">IPAKLICK</a></h1>
+
+  <p>This is a tool for inserting phonetic symbols into electronic documents. IPAKLICK was first placed on the Web through the Department of Linguistics at Stockholm University on 2003-09-15. This repository contains the revised version of IPAKLICK of 2026-10-15 and provides its current public home.</p>
+
+  <p>Use of the tool requires the presence of phonetic fonts. The list below is from 2003, when some deficiencies in the listed fonts were noted.</p>
+
+  <ul>
+    <li>Arial Unicode MS (present in certain Microsoft systems)<sup>1</sup></li>
+    <li>Dialekt Uni (free download)<sup>1, 2</sup></li>
+    <li>SIL Gentium (free non-commercial download)<sup>2</sup></li>
+    <li>Lucida Sans Unicode (present in most Microsoft systems)<sup>1, 2</sup></li>
+    <li>SILDoulosUnicodeIPA (free download)<sup>1, 2</sup></li>
+    <li>TITUS Cyberbit Basic (free non-commercial download)<sup>1, 3</sup></li>
+  </ul>
+
+  <hr>
+  <div style="font-size:0.9rem">
+    <sup>1</sup>This font suffered from deficiencies in details.<br>
+    <sup>2</sup> This font lacked one or several symbols.<br>
+    <sup>3</sup> This font misplaced the syllabicity mark after the basic character.
+  </div>
+
+  <hr>
+  <p><b>Note:</b> The arrangement of the open vowels [æ ɶ a ɑ ɒ] in IPAKLICK represents an improvement of their conventional arrangement by the International Phonetic Association.</p>
+
+  <hr>
+  <h2>Instructions for use</h2>
+  <ol>
+    <li>Use your keyboard or click the IPA symbols you want to appear in the text window of IPAKLICK. Diacritics (highlighted) are to be inserted <i>after</i> the basic character, double diacritics after their <i>first</i> basic character.</li>
+    <li>Copy or cut out the symbol string from the text window and paste it where you want it.</li>
+    <li>For more information about a symbol, you can copy it for a search in Wikipedia or on the Web.</li>
+  </ol>
+
+  <hr>
+  <p>This tool is free to use and share.</p>
+  <hr>
+  <footer>
+    <a href="https://resources.ling.su.se/hartmut/index.html">H. Traunmüller</a> | <a href="https://www.internationalphoneticassociation.org/">I P A</a>
+     </footer>
+</main>
+
+
+</body></html>
